@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Outfit, sans-serif;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #181818;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #ecebe7;
+}
+
+.top-nav .left-top-nav ul li, .right-top-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 3rem;
+}
+
+.top-nav .left-top-nav ul li a, .right-top-nav ul li a{
+    padding: 0.5rem;
+    color: #181818;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.top-nav .left-top-nav ul li a:hover, .right-top-nav ul li a:hover{
+    background-color: #aa7453;
+}
+
+.top-nav .logo img{
+    width: 6rem;
+}
+
+.top-nav .login-signup-btn{
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+
+.top-nav .login-signup-btn a{
+    padding: 0.5rem;
+    color: #181818;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.top-nav .login-signup-btn a button{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #aa7453;
+    font-size: 1.3rem;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.main-content .ft-prod{
+    display: flex;
+    background-color: #ecebe7;
+    width: 80%;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.main-content .ft-prod img{
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.main-content .ft-prod .desc{
+    margin: 5rem;
+    text-wrap: wrap;
+}
+
+.main-content .ft-prod .desc h1{
+    font-size: 4rem;
+}
+
+.main-content .ft-prod .desc p{
+    font-size: 2rem;
+}
+
+.footer .row{
+    width: 100%;
+    padding: 5rem;
+    background-color: #ecebe7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .row .footer-col-1{
+    text-align: center;
+}
+
+.footer .row .footer-col-1 img{
+    width: 10rem;
+}
+
+.footer .row .footer-col-2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer .row .footer-col-2 ul li{
+    list-style-type: none;
+}
